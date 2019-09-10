@@ -70,6 +70,8 @@ There are in total 6 types of configurable parameter:
 #### Output
 All intermediate data is stored in `data/experiments/<experiment_name>` while the trained models are stored in `model/experiments/<experiment_name>`.
 
+To quickly test trained model in interactive way, run `python script/imt_demo.py --model_path "model/experiments/<experiment_name>/<model_name>.pt`
+
 ## References
 - Mikolov, Tomas, et al. "Advances in pre-training distributed word representations." arXiv preprint arXiv:1712.09405 (2017).
 - Pennington, Jeffrey, Richard Socher, and Christopher Manning. "Glove: Global vectors for word representation." Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 2014.
