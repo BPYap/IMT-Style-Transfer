@@ -70,7 +70,13 @@ There are in total 6 types of configurable parameter:
 #### Output
 All intermediate data is stored in `data/experiments/<experiment_name>` while the trained models are stored in `model/experiments/<experiment_name>`.
 
-To quickly test trained model in interactive way, run `python script/imt_demo.py --model_path "model/experiments/<experiment_name>/<model_name>.pt`
+To quickly test trained model in interactive way, execute the following:
+```
+python script/imt_demo.py [--model_path MODEL_PATH]
+ 
+argument:
+  MODEL_PATH path to trained model (e.g.: model/experiments/sample/0-onmt_model_step_1024.pt)
+```
 
 ## References
 - Mikolov, Tomas, et al. "Advances in pre-training distributed word representations." arXiv preprint arXiv:1712.09405 (2017).
