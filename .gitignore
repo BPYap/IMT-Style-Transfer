@@ -4,3 +4,4 @@ dist/
 imt.egg-info/
 env/
 *.pyc
+model/
